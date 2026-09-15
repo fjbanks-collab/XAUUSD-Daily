@@ -1,5 +1,17 @@
 # XAUUSD DAILY QUANTITATIVE ASSESSMENT - 2026-09-15 (Pre-London, 07:00 UTC)
 
+## AT A GLANCE
+| | |
+|---|---|
+| **Stance** | STAND ASIDE (no trade authorised) |
+| **Composite** | 0 / 4 |
+| **Confidence** | LOW — MT5 feed stale ~4.9 days, spot is web-estimated |
+| **Current spot (est.)** | ~$4,325 |
+| **Level above** | 4346.88 20-EMA proxy · 4434.91 DCH invalidation |
+| **Level below** | 4300.85 DCL invalidation / sweep target |
+| **Why** | Gold's sweep+reclaim (+1) offset by DXY breaking out to a 2-wk high pre-FOMC (-1); oil & GDX neutral |
+| **Watch today** | Sept 16 FOMC (~90% odds of 25bp hike) — first hike since 2023 |
+
 **PRICE SOURCE / FRESHNESS:** `market_levels.json` generated_at_utc = 2026-09-11T10:28:15Z (Friday). As of this report (2026-09-15T07:10:52Z) that snapshot is **~116.7 hours (~4.9 days) old**, far beyond the ~20h freshness threshold — the MT5 bridge has not run since Friday's pre-close (no weekend or Monday refresh landed, and none overnight into today). **LOW CONFIDENCE — live MT5 feed unavailable for today's session.** Current spot is triangulated from public web sources, which disagree materially (a $4,298–$4,473 spread across providers within the same search pass). The price ladder below anchors on the last confirmed MT5 D1/H4 structure (through Friday, Sept 11) reconciled against a blended web-sourced spot estimate; treat all intraday levels (Asian range, session open) as estimates, not confirmed MT5 prints.
 
 ## DAILY 4-VOTE LEDGER
