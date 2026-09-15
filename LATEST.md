@@ -3,66 +3,55 @@
 ## AT A GLANCE
 | | |
 |---|---|
-| **Stance** | STAND ASIDE (no trade authorised) |
-| **Composite** | 0 / 4 |
-| **Confidence** | LOW — MT5 feed stale ~4.9 days, spot is web-estimated |
-| **Current spot (est.)** | ~$4,325 |
-| **Level above** | 4346.88 20-EMA proxy · 4434.91 DCH invalidation |
-| **Level below** | 4300.85 DCL invalidation / sweep target |
-| **Why** | Gold's sweep+reclaim (+1) offset by DXY breaking out to a 2-wk high pre-FOMC (-1); oil & GDX neutral |
-| **Watch today** | Sept 16 FOMC (~90% odds of 25bp hike) — first hike since 2023 |
-
-**PRICE SOURCE / FRESHNESS:** `market_levels.json` generated_at_utc = 2026-09-11T10:28:15Z (Friday). As of this report (2026-09-15T07:10:52Z) that snapshot is **~116.7 hours (~4.9 days) old**, far beyond the ~20h freshness threshold — the MT5 bridge has not run since Friday's pre-close (no weekend or Monday refresh landed, and none overnight into today). **LOW CONFIDENCE — live MT5 feed unavailable for today's session.** Current spot is triangulated from public web sources, which disagree materially (a $4,298–$4,473 spread across providers within the same search pass). The price ladder below anchors on the last confirmed MT5 D1/H4 structure (through Friday, Sept 11) reconciled against a blended web-sourced spot estimate; treat all intraday levels (Asian range, session open) as estimates, not confirmed MT5 prints.
+| **Stance** | 🔴 BEARISH CONFLUENCE — short bias, high confidence |
+| **Composite** | −3 / 4 |
+| **Confidence** | MODERATE — MT5 feed fresh (bridge refreshed 07:51 UTC today); DXY/GDX H4-D1 *bar history* has a gap since Sep 11 but live ticks are current and used for the read |
+| **Current spot** | $4,280.00 (live MT5 bid) |
+| **Level above** | 4,300.85 broken support → resistance · 4,348.00 bullish invalidation |
+| **Level below** | 4,279.67 today's fresh low · 4,253.52 Sep 14 low / downside target |
+| **Why** | XAUUSD confirmed breakdown (4 straight lower closes, fresh low today) + DXY extending to a multi-week high pre-FOMC + GDX/GDXJ distribution below range = 3 aligned bearish votes; oil neutral |
+| **Watch today** | **Sep 16 FOMC tomorrow** (~90% odds of a 25bp hike, first since 2023) — treat this bearish read as pre-event, not post-event; do not hold full size through the decision |
+| **Vs yesterday** | Composite flipped **0 → −3**. XAUUSD (0→−1) and GDX (0→−1) both confirmed; DXY (already −1) extended further |
 
 ## DAILY 4-VOTE LEDGER
-- XAUUSD: seeking-DCL → confirmed sweep+reclaim, now retesting from below | last confirmed H4 sequence swept the prior low then reclaimed; web-sourced spot sits below the H4 EMA proxy but has not broken the sweep low | vote: +1
-- DXY: range compression → confirmed breakout | fourth consecutive up session to ~99.6, a 2-week high, clearing the Sept 7–11 98.68–99.17 shelf into tomorrow's FOMC | vote: -1
-- USOIL: still expanding/spiking, no reversal signature | elevated $99–103 on Middle East supply disruption (pipeline/attack risk), no confirmed distribution top yet | vote: 0
-- GDX: tentative stabilization, unconfirmed | modest bounce (~95.98 stale MT5 print → ~97.10 web-sourced Sept 14) but no fresh H4 base confirmation | vote: 0
+- 🔴 XAUUSD: confirmed downside continuation, seeking DCL | four straight declining D1 closes (4348.00 Sep11 → 4298.60 Sep14 → fresh low 4279.67 today), no reclaim of any broken swing low | vote: **−1**
+- 🔴 DXY: confirmed breakout extending | live bid 99.318, a fresh multi-week high, building on yesterday's breakout above the 98.68–99.17 shelf, positioning into tomorrow's FOMC | vote: **−1**
+- ⚪ USOIL: still elevated/spiking, no reversal signature | bid 103.53, grinding back up to retest the 104.45 high after Friday's pullback — range continuation, not a clean top or bottom | vote: **0**
+- 🔴 GDX/GDXJ: distribution extending below range | GDX 94.12 / GDXJ 120.95, both well under last week's 98–101 / 124–132 ranges, confirming the miners are leading gold lower | vote: **−1**
 
-COMPOSITE SCORE: 0 / 4
-STANCE: stand aside
+**COMPOSITE SCORE: −3 / 4**
+**STANCE: BEARISH CONFLUENCE — high confidence, short-side setups favored on rallies into resistance**
+
+## RATIONALE
+XAUUSD (−1) has broken down cleanly: Sep 11's close at 4,348 gave way to 4,298.60 on Sep 14 (range low 4,253.52), and today has already printed a fresh session low of 4,279.67 with spot now at 4,280 — four consecutive sessions of lower structure with no reclaim of any broken level. DXY (−1) is the aligning macro driver: live at 99.318, a fresh multi-week high, extending yesterday's breakout as traders position for tomorrow's FOMC (~90% odds of a 25bp hike, the first since 2023) — genuine impulsive dollar strength, not event chop. GDX/GDXJ (−1) confirm rather than diverge: both sit well below last week's ranges (GDX 94.12 vs. 98–101; GDXJ 120.95 vs. 124–132), so miners are leading gold lower rather than basing ahead of it — the cross-check that was missing on every prior stand-aside day is now present. USOIL (0) stays neutral: it's retesting the 104.45 high off Friday's pullback but hasn't cleanly topped or bottomed, so it doesn't add to either side. Net: three of four votes aligned bearish, crossing the −3 high-confidence threshold for the first time this week. The one overriding caveat is timing — this read is being taken one trading day before a high-impact FOMC decision, which is exactly the kind of event that can snap a clean technical picture; treat today's setups as pre-event positioning, not a green light to hold full size through tomorrow's 2pm ET decision.
 
 ## VISUAL TRADE PLAN - PRICE LADDER (XAUUSD)
 ```
-4510.88  ---  daily overhead resistance / structural target
-4434.91  ---  daily cycle high invalidation level
-4349.00  ---  Asian range high / session liquidity pool (est., fresh session data unavailable)
-4335.00  ---  session open / London baseline (est.)
-4325.00  >>>  CURRENT SPOT (web-sourced blended estimate; MT5 feed stale since Fri 10:28 UTC)
-4346.88  ~~~  20-EMA proxy / value reclaim (mean of last 8 confirmed H4 closes)
-4300.85  ---  daily cycle low invalidation level
-4300.85  ---  Asian range low / manipulation sweep target
+4348.00  ---  bullish invalidation (H4 close reclaim negates the bearish read)
+4300.85  ---  broken support / immediate overhead resistance (retest zone)
+4280.00  >>>  CURRENT SPOT
+4279.67  ---  today's fresh low / next sweep level
+4253.52  ---  Sep 14 daily low / downside target 1
+~4200    ---  round-number downside target 2 / prior demand zone (est.)
 ```
 
 ## QUARTERLY THEORY SESSION CADENCE
-- Q1 (06:00-07:30 UTC): asian range capture, baseline liquidity formation — expect thin rotation around the ~4325 estimate; do not treat this window's range as reliable liquidity until fresh MT5 data confirms it, and note it sits below the 4346.88 EMA proxy, i.e. price has not yet reclaimed value.
-- Q2 (07:30-09:00 UTC): judas swing / liquidity run against composite bias — composite is flat (0), so there is no dominant bias to fade; a sweep of 4300.85 or a push back toward 4346.88 should be treated as information only, especially one day ahead of the FOMC decision.
-- Q3 (09:00-10:30 UTC): true trend distribution in direction of composite bias — suppressed today; with DXY breaking out (-1) offsetting gold's still-intact reclaim structure (+1), a genuine directional Q3 push is unlikely to be tradable, and positioning ahead of tomorrow's 2:00pm ET FOMC decision should keep ranges compressed.
-- Q4 (10:30-12:00 UTC): terminal distribution, reversal or rebalance — watch for the first fresh MT5 print to re-validate or invalidate this entire ledger; also watch whether DXY's breakout extends or fails back into its prior 98.68–99.17 shelf, which would flip Vote 2 back to 0/+1.
+- Q1 (06:00–07:30 UTC): asian range capture — today's Asian session already printed the 4279.67 low; treat it as the baseline liquidity pool for the day.
+- Q2 (07:30–09:00 UTC): judas swing — with a −3 bearish bias, the higher-probability judas move is a shallow bounce toward the 4300.85 broken-support-turned-resistance shelf before sellers resume; a sweep of 4300.85 that fails to reclaim it on an H4 close is a clean short trigger.
+- Q3 (09:00–10:30 UTC): true trend distribution — the composite bias (short) has room to run toward 4253.52 if Q2 holds as a lower high; this is the window most likely to extend the bearish structure.
+- Q4 (10:30–12:00 UTC): terminal distribution — with FOMC one session away, expect range compression into the New York close rather than a full push to target; don't chase extension this late in the day pre-event.
 
 ## EXECUTION PARAMETERS
-- Directional bias: cash
-- Entry trigger: NONE authorised — composite (0) sits inside the -2/+2 stand-aside band, and price/structure inputs are additionally LOW CONFIDENCE (stale feed, ~4.9 days)
-- Take profit 1: n/a
-- Take profit 2: n/a
-- Hard invalidation: n/a
-- Re-arm conditions: (1) fresh `market_levels.json` confirming actual current session structure, AND (2) composite moves to ≥+3 (e.g., DXY's breakout failing back into the 98.68–99.17 shelf, USOIL confirming a clean distribution top, and GDX confirming a base alongside a fresh XAUUSD DCL reclaim) or ≤-3 for the mirrored bearish case (e.g., DXY extending its breakout post-FOMC hike, XAUUSD losing 4300.85, and GDX breaking its recent range lower)
-
-## RATIONALE
-XAUUSD's last confirmed MT5 structure (Vote 1, +1) is a clean sweep-and-reclaim: the Sept 11 04:00 H4 bar swept the prior day's low (4300.85 vs. 4313.73 on Sept 10) and price then printed a rising sequence of H4 closes into Friday's close (4331.75 → 4347.05 → 4348.50); web-sourced spot today clusters mostly in the $4,298–$4,349 band, i.e. still above the 4300.85 sweep low but pulled back below the 4346.88 H4-close EMA proxy — the reclaim structure is intact but not yet reconfirmed. DXY (Vote 2, -1) is the clearest change from the prior session: after five sessions of tight 98.68–99.17 compression, it has broken out to ~99.6, its highest level in roughly two weeks, on a fourth straight up session as traders position into tomorrow's Sept 16 FOMC decision, where ~89–93% odds are priced for a 25bp hike (the Fed's first hike since 2023) — that is impulsive upside expansion above a prior range, a genuine headwind for gold rather than mere event-chop. USOIL (Vote 3, 0) remains elevated in the $99–103 area on continued Middle East supply disruption (reported pipeline/attack risk) with no confirmed reversal signature — still expansionary/spiking rather than reversing, so it stays neutral. GDX/GDXJ (Vote 4, 0) show a tentative bounce (stale MT5 print 95.98 on Sept 10 vs. a web-sourced ~97.10 on Sept 14) but the feed gap prevents confirming a genuine base versus incidental drift with broad equities. Net: one intact-but-unconfirmed bullish vote against a newly bearish DXY breakout and two neutrals — composite of 0 sits squarely inside the stand-aside band, and the ~5-day staleness of the primary feed is an independent reason to withhold execution regardless of the vote count, especially one trading day ahead of a high-impact FOMC decision.
+- Directional bias: **short**, reduced size, pre-FOMC
+- Entry trigger: rejection at the 4,300.85 retest (H4 close back below after a failed reclaim) — do not sell the break of 4,279.67 in isolation without the retest-and-fail confirmation
+- Take profit 1: 4,253.52 (Sep 14 low)
+- Take profit 2: ~4,200 (round-number/prior demand, estimate)
+- Hard invalidation: H4 close back above 4,348.00
+- Re-arm / caution: **flatten or cut size ahead of the Sep 16 FOMC decision** regardless of where price sits — a hike-plus-dovish-guidance ("sell the news") or a surprise hold would violently reprice this ledger in either direction; re-assess fresh after the decision rather than assuming continuation
 
 ## SOURCES
-- `market_levels.json` (repo root) — MetaTrader5 / IC Markets Global, generated_at_utc 2026-09-11T10:28:15Z (STALE, ~4.9 days old, used for last-confirmed structure only)
-- [Gold Price Today | Live Spot Chart - metalcharts.org](https://metalcharts.org/gold-price)
-- [XAU/USD | Gold Spot US Dollar Price - Investing.com](https://www.investing.com/currencies/xau-usd)
-- [XAUUSD (Gold vs US Dollar) - MQL5](https://www.mql5.com/en/quotes/metals/xauusd)
-- [Gold (XAU/USD) Price Forecast - LiteFinance](https://www.litefinance.org/blog/analysts-opinions/gold-price-prediction-forecast/daily-and-weekly/)
+- `market_levels.json` (repo root) — MetaTrader5 / IC Markets Global, generated_at_utc 2026-09-15T07:51:59Z, live ticks 2026-09-15T10:52 UTC
 - [September FOMC Meeting 2026: Is a Rate Hike on the Table? - ATFX](https://www.atfxcapital.com/en/analysis/financial-events/september-fomc-meeting-2026)
 - [Gold Price Outlook September 2026: What the Fed's September 15-16 Meeting Means - goldsilver.com](https://goldsilver.com/industry-news/article/gold-price-outlook-september-2026/)
-- [Gold Price Fed Rate Hike 2026: What's Really Driving It - goldsilver.com](https://goldsilver.com/industry-news/article/gold-price-fed-rate-hike-2026-real-yields-decoupling/)
-- [US Dollar Index (DXY) - tradingeconomics.com](https://tradingeconomics.com/dxy:cur)
-- [Crude Oil - Price - Chart - tradingeconomics.com](https://tradingeconomics.com/commodity/crude-oil)
-- [GDX Stock Price | VanEck Gold Miners ETF - Investing.com](https://www.investing.com/etfs/market-vectors-gold-miners)
 
-Price/structure from live MT5 feed (market_levels.json) where fresh; narrative context from public web sources. Not investment advice.
+Price/structure from live MT5 feed (market_levels.json). Not investment advice.
