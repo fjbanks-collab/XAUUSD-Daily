@@ -1,57 +1,58 @@
-# XAUUSD DAILY QUANTITATIVE ASSESSMENT - 2026-10-09 (Pre-London, 07:00 UTC)
+# XAUUSD DAILY QUANTITATIVE ASSESSMENT - 2026-10-12 (Pre-London, 07:00 UTC)
 
 ## AT A GLANCE
 | | |
 |---|---|
-| **Stance** | 🟢 BULLISH CONFLUENCE — longs favored on sweeps/retests |
-| **Composite** | +3 / 4 |
-| **Confidence** | HIGH — `market_levels.json` is fresh (`generated_at_utc` 2026-10-09T05:55:02Z, ~1.3h before this run); XAUUSD's own H4/D1 bars are fully current with the last H4 bar (08:00 UTC) closing exactly at the live bid of 4,192.64. DXY's bar-history array lags a day (last H4 bar dated Oct 8 08:00Z vs XAUUSD's Oct 9 08:00Z, the known provider gap), but its live tick (101.783) is current and used per the override rule. GDX/GDXJ ticks are dated Oct 8 22:54 UTC, which is simply the last NYSE cash-session print (equities don't trade overnight), not a feed fault, and both ETFs show a clean directional bounce. USOIL remains unscoreable — `WTI_V6_CFD` still returns no quote |
-| **Current spot** | $4,192.64 bid (live MT5 tick, IC Markets) |
-| **Level above** | 4,207.55 immediate resistance/supply retest (today's H4 high) · 4,227.79 next upside target (Oct 2 D1 cycle high) |
-| **Level below** | 4,181.94 immediate support retest · 4,066.48 hard invalidation (Oct 7 sweep low) |
-| **Why** | XAUUSD (+1) extended its sweep-and-reclaim DCL into an impulsive breakout above the Oct 6 supply shelf; DXY (+1) broke down from its Oct 7-8 consolidation; GDX/GDXJ (+1) bounced off their Oct 7 lows in tandem with spot; USOIL (0) unscoreable — net +3/4, high-confidence bullish confluence |
-| **Watch today** | None within the next 1-2 sessions — next real catalyst is the September CPI print on Oct 14 (~5 sessions out), then FOMC on Oct 28 |
-| **Vs yesterday** | Composite **-1 (stand aside) → +3 (bullish confluence)**: XAUUSD's DCL reclaim extended into a full impulsive breakout through 4,184.50; DXY flipped from fresh-highs (-1) to a breakdown from its own consolidation (+1); GDX/GDXJ flipped from fresh-lows (-1) to a bounce off the Oct 7 low in tandem with gold (+1); USOIL stayed unscoreable (0) with the feed still down |
+| **Stance** | ⚪ STAND ASIDE — no execution authorised |
+| **Composite** | +1 / 4 |
+| **Confidence** | LOW — `market_levels.json` is stale (`generated_at_utc` 2026-10-09T05:55:02Z, ~73h before this run; the MT5 bridge did not run over the Sat/Sun close, the documented weekend gap) and its H4/D1 bars carry no coverage of the Oct 10-12 session. WebSearch corroborates XAUUSD's own spot level (~$4,195-4,205, consistent with Friday's $4,194.645 close) reasonably well, but DXY, WTI and GDX/GDXJ structural data could not be corroborated to any reliable precision via WebSearch, forcing those three votes to 0/unscoreable this cycle |
+| **Current spot** | ~$4,198 bid (ESTIMATED via WebSearch — `market_levels.json` tick is 73h stale; last confirmed MT5 print was 4,192.64 bid on 2026-10-09T08:55:02Z) |
+| **Level above** | 4,207.55 immediate resistance retest (last confirmed MT5 H4 high, Oct 9) · 4,227.79 next upside target (Oct 2 D1 cycle high; close to the ~$4,230 61.8% fib resistance cited in weekend commentary) |
+| **Level below** | 4,181.94 immediate support retest (Oct 9 H4 breakout level) · 4,066.48 hard invalidation (Oct 7 D1 sweep low) |
+| **Why** | XAUUSD (+1) is holding its Friday breakout with no rejection signature; DXY (0) softened from Friday's breakdown to macro-chop as the dollar found a tepid bid into CPI week; USOIL (0) and GDX/GDXJ (0) are unscoreable this cycle — the MT5 feed gap and thin weekend web coverage leave no corroborated structure for either — net +1/4, below the ±3 confluence threshold |
+| **Watch today** | September CPI, Wed Oct 14 08:30 ET / 12:30 UTC — 2 trading sessions out; also FOMC Oct 28 (market pricing a hold, ~78% per CME-style odds cited in weekend commentary) |
+| **Vs yesterday** | Composite **+3 (bullish confluence) → +1 (stand aside)**: DXY downgraded from a confirmed breakdown to macro-event chop as the dollar firmed into CPI week; USOIL stayed unscoreable; GDX/GDXJ dropped from +1 back to unscoreable as the weekend MT5 gap and thin web coverage removed any corroborated miner structure |
 
 ## DAILY 4-VOTE LEDGER
-- 🟢 XAUUSD: impulsive DCL-reclaim expansion, no rejection signature | Having already swept the Oct 7 low (4,066.48) and reclaimed with a higher-low sequence through Oct 8, price expanded impulsively overnight: the Oct 9 04:00 UTC H4 bar ran 4,143.24 → 4,181.94 and the 08:00 UTC bar tagged 4,207.55 before settling at the 4,192.64 bid — a clean break above the entire Oct 6-8 supply shelf (prior cap 4,184.50/4,146.10) with only a shallow pullback off the high, not an exhaustion/rejection pattern | vote: **+1**
-- 🟢 DXY: breakdown from its own consolidation range | the live tick (101.783/101.813) trades below the entire Oct 7-8 H4 consolidation floor (101.913-101.985), which had formed after the Oct 7 12:00 UTC high of 102.258 — a lower structural high followed by a clean break of the range low, i.e. a rollover from the minor DCH rather than continuation of the Oct 6-7 rally | vote: **+1**
-- ⚪ USOIL: unscoreable — MT5 feed still down, no corroborated reversal signature | `WTI_V6_CFD` again returns "symbol not found or no tick"; web cross-checks only place WTI in the high-$80s/low-$90s per barrel with no reliable intraday structure to score a cycle extreme or reversal | vote: **0**
-- 🟢 GDX/GDXJ: bounce off the Oct 7 low, tracking spot higher | live ticks GDX 86.68 / GDXJ 110.81 sit above the entire Oct 7 H4 range (GDX high 86.38, GDXJ high 110.52) and above the Oct 7 D1 closes (85.43 / 109.15) — miners are recovering off their Oct 7 lows in tandem with gold's breakout rather than lagging it, closing the bearish divergence flagged in prior cycles | vote: **+1**
+- 🟢 XAUUSD: holding Friday's impulsive breakout, no rejection signature | Last confirmed MT5 structure (Oct 9) shows price breaking the Oct 6-8 supply shelf to a H4 high of 4,207.55 and closing at 4,192.64; weekend/Monday web commentary places spot still near $4,195-4,205 — holding the bulk of Friday's gains with only a "tepid" dollar-driven cap under $4,200-4,205, not a clean rejection or breakdown | vote: **+1**
+- ⚪ DXY: tepid bounce into CPI-week chop, not an impulsive breakout | Friday's structural breakdown (live tick 101.783 below the Oct 7-8 consolidation floor) has not extended into a fresh impulsive higher-high sequence; weekend commentary describes only a "tepid bounce" capping gold under $4,200-4,205 ahead of Wednesday's CPI — fits macro-event chop rather than a confirmed rollover (bullish for gold) or a confirmed breakout (bearish for gold) | vote: **0**
+- ⚪ USOIL: unscoreable — MT5 feed still down, no reliable web structure | `WTI_V6_CFD` continues to return no quote in `market_levels.json`; WebSearch returns only stale/undated forecast-site figures with no reliable intraday structure to score a cycle extreme or reversal | vote: **0**
+- ⚪ GDX/GDXJ: unscoreable — weekend MT5 gap, no reliable web corroboration | Last confirmed MT5 ticks (Oct 8, 22:54 UTC) showed both ETFs bouncing off their Oct 7 lows in tandem with gold, but that print is now 3 sessions stale and WebSearch returned only conflicting, undated GDX quotes ($66-$111) with no way to confirm current structure | vote: **0**
 
-**COMPOSITE SCORE: +3 / 4**
-**STANCE: BULLISH CONFLUENCE**
+**COMPOSITE SCORE: +1 / 4**
+**STANCE: STAND ASIDE**
 
 ## RATIONALE
-XAUUSD (+1) has moved from a simple sweep-and-reclaim DCL into full impulsive expansion: after sweeping the Oct 7 low of 4,066.48 and building a higher-low sequence into Oct 8, the Oct 9 session broke decisively through the 4,146-4,184 supply shelf that had capped the prior two days, running to a 4,207.55 H4 high before settling at the 4,192.64 bid — no rejection or exhaustion signature is present. DXY (+1) corroborates the move: the live tick (101.783) has broken below the entire Oct 7-8 consolidation floor (101.913-101.985) that formed under the Oct 7 high of 102.258, a rollover from that minor cycle high rather than a continuation of the dollar's prior advance. GDX/GDXJ (+1) close out the picture: both miner ETFs have bounced off their Oct 7 lows (GDX 85.43, GDXJ 109.15) to trade above their entire Oct 7 range, confirming participation in the gold rally rather than the lagging divergence seen in the prior two cycles. USOIL (0) stays unscored — the MT5 `WTI_V6_CFD` feed remains down, and web cross-checks give only a rough high-$80s/low-$90s range with no reversal structure to lean on. Net, three of four fully-scored votes align bullish for a +3/4 composite, clearing the high-confidence confluence threshold; no high-impact scheduled catalyst falls within the next 1-2 sessions (September CPI is ~5 sessions out on Oct 14, FOMC further out on Oct 28), so this is a clean structural/intermarket signal rather than one clouded by imminent event risk — though the overnight range expansion (4,131.05 → 4,207.55, >75 points) is unusually wide and warrants disciplined entries on retests rather than chasing the extension.
+XAUUSD (+1) is still carrying Friday's impulsive break of the Oct 6-8 supply shelf (H4 high 4,207.55, close 4,192.64), and weekend/Monday commentary places spot in the same $4,195-4,205 area with no rejection signature — the move is holding, not reversing. DXY (0) is the key downgrade from yesterday: Friday's confirmed breakdown below the Oct 7-8 consolidation floor has not followed through into a fresh impulsive leg; instead the dollar is described as staging only a "tepid bounce" that is merely capping gold under the $4,200-4,205 handle ahead of Wednesday's CPI print, which reads as macro-event chop rather than a scoreable structural vote either way. USOIL (0) remains unscoreable — the MT5 `WTI_V6_CFD` mapping is still broken and no reliable current structure surfaced via WebSearch. GDX/GDXJ (0) also fall back to unscoreable: the last corroborated MT5 print (Oct 8) showed miners bouncing with spot, but three sessions have passed with no fresh MT5 data and WebSearch returned only conflicting, undated quotes that cannot be used to confirm or deny that structure. Net, only one of four votes is confidently scored this cycle, leaving a +1/4 composite that sits well inside the -2/+2 stand-aside band — this is a data-quality outcome as much as a market one, driven by the weekend MT5 bridge gap. September CPI lands Wednesday (Oct 14, 12:30 UTC), only two trading sessions away, so no directional conviction should be built into or held through that print regardless of how the ledger evolves between now and then.
 
 ## VISUAL TRADE PLAN - PRICE LADDER (XAUUSD)
 ```
-4227.79  ---  next upside target — Oct 2 D1 cycle high
-4207.55  ---  immediate resistance / supply retest — Oct 9 08:00 UTC H4 high
-4192.64 >>>   CURRENT SPOT (live MT5 bid)
+4227.79  ---  next upside target — Oct 2 D1 cycle high (~61.8% fib resistance per weekend commentary)
+4207.55  ---  immediate resistance retest — last confirmed MT5 H4 high (Oct 9 08:00 UTC)
+4198    >>>   CURRENT SPOT (estimated via WebSearch — MT5 tick 73h stale)
 4181.94  ---  immediate support retest — Oct 9 04:00 UTC H4 breakout level
 4143.24  ---  deeper support — Oct 9 00:00 UTC H4 close / consolidation retest
-4066.48  ---  hard invalidation — Oct 7 12:00 UTC sweep low
+4066.48  ---  hard invalidation — Oct 7 12:00 UTC D1 sweep low
 ```
 
 ## QUARTERLY THEORY SESSION CADENCE
-- Q1 (06:00-07:30 UTC): asian range capture — composite at +3/4 with spot sitting just below the overnight 4,207.55 high; expect consolidation in the 4,182-4,207 band as the Asian session digests the overnight expansion.
-- Q2 (07:30-09:00 UTC): judas swing — watch for a quick probe down into the 4,181.94 breakout-retest level (or deeper to 4,143.24) that fails to break, shaking out late longs before the true move; a sweep of either level without a close below is the highest-quality long trigger today.
-- Q3 (09:00-10:30 UTC): true trend distribution — composite (+3/4) sanctions longs in the direction of the trend; expect an attempt to clear 4,207.55 and press toward the 4,227.79 Oct 2 cycle high if DXY's breakdown and the GDX/GDXJ bounce continue to hold.
-- Q4 (10:30-12:00 UTC): terminal distribution — with no scheduled catalyst today, expect profit-taking/consolidation into the NY handover once 4,207.55-4,227.79 is tested; reassess the ledger if USOIL data returns or if DXY reclaims back above 101.9.
+- Q1 (06:00-07:30 UTC): asian range capture — with the ledger at +1/4 and spot only loosely known (~$4,195-4,205), treat any Asian-session range as unconfirmed baseline liquidity until fresh MT5 data or a clean London print arrives.
+- Q2 (07:30-09:00 UTC): judas swing — no trade is sanctioned to act on a probe in either direction today; a sweep of 4,181.94 or a push into 4,207.55 is observational only, not an entry trigger, while the composite sits in the stand-aside band.
+- Q3 (09:00-10:30 UTC): true trend distribution — the ledger does not sanction a directional push today; any sustained move should be read as pre-CPI positioning rather than a confirmed composite-driven trend leg.
+- Q4 (10:30-12:00 UTC): terminal distribution — expect position-squaring into the NY handover ahead of Wednesday's CPI; reassess the full ledger once market_levels.json refreshes and DXY/USOIL/GDX structure can be scored with confidence again.
 
 ## EXECUTION PARAMETERS
-- Directional bias: long
-- Entry trigger: a liquidity sweep/pullback into the 4,181.94-4,143.24 zone with a reclaim back above 4,181.94, or a confirmed break-and-hold above 4,207.55 for trend continuation — do not chase the overnight extension outright
-- Take profit 1: 4,207.55 (prior session high retest)
-- Take profit 2: 4,227.79 (Oct 2 D1 cycle high); beyond that, no further structural resistance is visible in current bar history — trail stops into fresh highs
-- Hard invalidation: 4,066.48 (a break and hold below invalidates the DCL-reclaim thesis and the bullish composite)
-- Re-arm conditions: bias stays sanctioned while composite holds at +3/+4. Downgrade to stand-aside if DXY reclaims back above 101.9 into its old consolidation (flips to 0/-1), if GDX/GDXJ rolls back below the Oct 7 lows (flips to 0/-1) while spot stalls, or if XAUUSD is rejected decisively from the 4,207-4,227 supply zone without reclaiming it (flips to 0). USOIL remains unscoreable — restoring the `WTI_V6_CFD` mapping would let a genuine reversal/impulsive-rally read confirm or temper the composite further
+- Directional bias: cash
+- Entry trigger: NONE authorised — composite (+1/4) sits inside the -2/+2 stand-aside band
+- Take profit 1: n/a
+- Take profit 2: n/a
+- Hard invalidation: n/a
+- Re-arm conditions: requires the composite to reach ±3/4 with corroborated data. Needs (a) `market_levels.json` to refresh with current ticks/bars so DXY, USOIL and GDX/GDXJ can be scored directly again, and (b) a genuine structural resolution — e.g. DXY confirming either a rollover (bullish for gold) or an impulsive breakout (bearish for gold) rather than CPI-week chop. Given September CPI lands Wed Oct 14 (12:30 UTC), reduce size or stay flat through the print even if the ledger flips to confluence before then — a pre-event read is not a license to hold full size through the release.
 
 ## SOURCES
-- `market_levels.json` (repo root) — MetaTrader5 / IC Markets Global, generated_at_utc 2026-10-09T05:55:02Z (fresh; XAUUSD bars fully current, DXY bar-history lags a day but tick is current, GDX/GDXJ ticks reflect last NYSE close, USOIL unavailable)
-- [October 2026 U.S. economic release schedule — fedratecalc.com](https://fedratecalc.com/us-economic-calendar/october-2026/) (September CPI Oct 14, FOMC Oct 28)
-- [NY Mercantile / CL=F history — Yahoo Finance](https://finance.yahoo.com/quote/CL%3DF/history) (WTI context, high-$80s/low-$90s per barrel, early Oct 2026)
+- `market_levels.json` (repo root) — MetaTrader5 / IC Markets Global, generated_at_utc 2026-10-09T05:55:02Z (stale: 73h old, no weekend bridge run, bars carry no Oct 10-12 coverage)
+- [Gold Forecast: XAU/USD buyers retain control as the US CPI week begins — FXStreet](https://www.fxstreet.com/analysis/gold-price-forecast-xau-usd-buyers-retain-control-as-the-us-cpi-week-begins-202610120319) (spot ~$4,195-4,205, dollar bounce, Middle East risk, fib levels, CPI-week framing)
+- [Forex Signals October 12: TSM, UnitedHealth, JPMorgan and Goldman Sachs Earnings Preview for the Week — FX Leaders](https://fxleaders.com/news/2026/10/11/forex-signals-october-12-tsm-unitedhealth-jpmorgan-and-goldman-sachs-earnings-preview-for-the-week) (week-ahead macro calendar context)
+- BLS economic release schedule aggregators (September CPI confirmed for Wed Oct 14, 08:30 ET / 12:30 UTC; PPI and retail sales Oct 15)
 
 Price/structure from live MT5 feed (market_levels.json). Not investment advice.
