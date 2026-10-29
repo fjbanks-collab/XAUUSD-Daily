@@ -1,58 +1,58 @@
-# XAUUSD DAILY QUANTITATIVE ASSESSMENT - 2026-10-28 (Pre-London, 07:00 UTC)
+# XAUUSD DAILY QUANTITATIVE ASSESSMENT - 2026-10-29 (Pre-London, 07:00 UTC)
 
 ## AT A GLANCE
 | | |
 |---|---|
 | **Stance** | ⚪ STAND ASIDE — no execution authorised |
-| **Composite** | -1 / 4 |
-| **Confidence** | LOW — `market_levels.json` (`generated_at_utc` 2026-10-27T06:55:02Z) is ~24h14m old, past the 20h staleness threshold; the MT5 bridge did not refresh this morning. All four vote prices below are web-sourced news quotes, not live ticks: gold's $4,037.98 (04:57 GMT) read has multi-source corroboration, but DXY (~102.4) and WTI ($100.05) carry imprecise timestamps and GDX/GDXJ have zero data newer than Monday's NYSE close — today's ledger is directional-only, not price-precise |
-| **Current spot** | ~$4,037.98 (web-sourced, 04:57 GMT Wed — **estimated**, no live MT5 tick available) |
-| **Level above** | $4,050-4,075 overnight pre-FOMC range ceiling · $4,125 dovish-tilt breakout objective |
-| **Level below** | $4,021 Oct 22 broken pivot / reclaim floor · $3,975.61 Oct 23 D1 cycle low / key structural invalidation |
-| **Why** | XAUUSD (+1) confirmed its sweep-and-reclaim with a continuation to new highs overnight; DXY (-1) pushed to a fresh two-week high into the Fed; USOIL (-1) reversed higher on a fresh Houthi strike on a Saudi refinery, reviving inflation fears — the intermarket picture is split, keeping composite in the stand-aside band |
-| **Watch today** | FOMC rate decision TODAY, 2:00pm ET / 18:00 UTC, with Chair Warsh's press conference at 2:30pm ET — markets price ~93% odds of a hold but ~84% odds of a December hike still live; PCE inflation print follows tomorrow (Oct 29). Reduce size / flatten ahead of the decision regardless of how the ledger reads this morning |
-| **Vs yesterday** | Composite **-1 (stand aside) → -1 (stand aside)**: same total, different composition. XAUUSD upgraded 0→+1 as the Oct 23/26 sweep-and-reclaim held and extended to $4,050-4,065 overnight before easing to ~$4,038; USOIL downgraded 0→-1 as a fresh Saudi-refinery strike headline reversed oil's dip into an impulsive spike; DXY held -1, printing a fresh two-week high (~102.4); GDX/GDXJ held at 0, unconfirmed, with no fresh data since Monday's close |
+| **Composite** | 0 / 4 |
+| **Confidence** | MODERATE — `market_levels.json` (`generated_at_utc` 2026-10-29T06:55:02Z) is ~17 minutes old, well inside the freshness window, and the XAUUSD/DXY/GDX/GDXJ bid and H4/D1 bars are live and current; however the broker returned no tick for USOIL (`WTI_V6_CFD`: "symbol not found or no tick"), so Vote 3 rests on web-sourced macro narrative, not a live MT5 price — that single gap is what caps this below HIGH |
+| **Current spot** | $4,033.42 bid (live MT5 tick) |
+| **Level above** | $4,068.95 Oct 29 04:00 H4 high / retest of the Oct 28 close · $4,082.76 Oct 28 cycle high |
+| **Level below** | $4,022.13 today's H4 sweep low, confluent with the $4,021.13 Oct 22 broken D1 pivot · $3,975.61 Oct 23 D1 cycle low / structural invalidation |
+| **Why** | XAUUSD (0) is pulling back from Monday's cycle high into an unconfirmed retest of the old breakout pivot; DXY (0) is digesting the hawkish Fed hold inside its recent range rather than extending it; USOIL (-1, web-sourced) stays elevated on Middle-East supply risk that Warsh himself flagged; GDX/GDXJ (+1) keep confirming their tandem cycle low with fresh bounce highs — the split votes net to a flat composite |
+| **Watch today** | US Core PCE (September data), 08:30 ET / 12:30 UTC — the dominant catalyst Warsh's hold explicitly deferred to; reduce size / stay flat into the print regardless of how the ledger reads this morning |
+| **Vs yesterday** | Composite **-1 (stand aside) → 0 (stand aside)**: same band, different mix. XAUUSD downgraded +1→0 as the reclaim rally paused and pulled back into the old pivot zone, unconfirmed; DXY upgraded -1→0 as the post-FOMC push stalled inside its range rather than breaking to fresh highs; USOIL held -1, still elevated on Middle-East supply risk; GDX/GDXJ upgraded 0→+1 on a confirmed tandem cycle low with fresh bounce highs |
 
 ## DAILY 4-VOTE LEDGER
-- 🟢 XAUUSD: confirmed DCL, reclaim extending | Swept the Oct 23 D1 low (3,975.61) with the Oct 26 H4 dip to 3,978.08 (a higher low), reclaimed above the broken Oct 22 pivot (4,021.13) to 4,029.83, then — per overnight news flow — extended the reclaim to $4,050 (23:18 UTC) and $4,060-4,065 before easing to ~$4,038 (04:57 GMT) — still well above the reclaim pivot, a continuation rather than a round-trip | vote: **+1**
-- 🔴 DXY: impulsive expansion into FOMC | Broke out of its two-week 101.40-101.70 compression band (confirmed by yesterday's live tick at 101.948) and has since pushed to a fresh two-week high near 102.4 ahead of today's decision — sustained higher highs, not chop, consistent with markets still pricing ~84% odds of a December hike behind an expected hold | vote: **-1**
-- 🔴 USOIL: fresh impulsive spike on supply shock | WTI fell over 1% to ~$100.05/bbl in an earlier session before the Houthis claimed a strike on a Saudi refinery, reviving inflation-pressure fears and driving a sharp rebound — a local-low-then-impulsive-upside-expansion signature on a geopolitical/supply catalyst, which pressures the Fed hawkish and weighs on gold | vote: **-1**
-- ⚪ GDX/GDXJ: unconfirmed, data gap | No fresh print since Monday's NYSE cash close (GDX 80.97, GDXJ 99.91, both +~1% off the multi-week lows in tandem with gold); US cash equities haven't re-opened since, so today's miner reaction is unknown and the one-session bounce still isn't confirmed as a basing signature | vote: **0**
+- ⚪ XAUUSD: unconfirmed pullback into pivot retest | Swept down from Monday's $4,082.76 cycle high through three successive lower H4 lows (4,036.21 → 4,035.65 → 4,022.13), tagging the broken Oct 22 D1 low ($4,021.13) almost to the tick before bouncing to $4,033.42 within the same still-forming H4 bar — a retracement into known support, not yet a confirmed higher-low reclaim | vote: **0**
+- ⚪ DXY: post-FOMC consolidation inside recent range | Printed a lower H4 high (102.148 vs Monday's 102.32) after the hawkish 10-2 hold, but is holding well above the pre-breakout 101.3-101.7 band and above today's 101.903 low — compression/digestion into this afternoon's PCE print, not a confirmed rollover or a fresh breakout | vote: **0**
+- 🔴 USOIL: elevated on Middle-East supply risk, no reversal signature (web-sourced, MT5 feed down) | `WTI_V6_CFD` returned no tick from the broker; per overnight coverage WTI remains in the high-$90s/low-$100s after this week's dip-then-spike on the Houthi strike on a Saudi refinery, and Warsh's own press conference flagged Middle-East tensions and energy markets as a material upside inflation risk — still the impulsive-expansion-after-a-local-low signature, with no confirmed distribution top yet | vote: **-1**
+- 🟢 GDX/GDXJ: confirmed tandem cycle low, fresh bounce highs | Both bottomed alongside gold's Oct 23 D1 low (GDX intrabar 78.9-80.14, GDXJ 97.32) and have since printed clean higher highs/higher lows — GDX 80.97 (Oct 26) → 82.97 (Oct 27) → 83.57 (Oct 28, new bounce high) and GDXJ 99.91 → ~103 → 103.82 — terminating distribution and tracking gold's reclaim in lockstep | vote: **+1**
 
-**COMPOSITE SCORE: -1 / 4**
+**COMPOSITE SCORE: 0 / 4**
 **STANCE: STAND ASIDE**
 
 ## RATIONALE
-XAUUSD (+1) is the strongest vote today: the Oct 23 cycle low (3,975.61) held through Monday's retest (3,978.08) and the reclaim rally above the broken Oct 22 pivot (4,021.13) has extended overnight to $4,050-4,065 before easing to roughly $4,038 — a continuation of the sweep-and-reclaim, not a failed retest. But the intermarket backdrop is working against that strength: DXY (-1) has pushed to a fresh two-week high (~102.4) into the Fed, and USOIL (-1) just reversed a dip into a sharp spike on a fresh Houthi strike on a Saudi refinery, reviving the same inflation/rate-hike fears that drove gold's breakdown two weeks ago. GDX/GDXJ (0) remain unconfirmed with no fresh print since Monday's close. With one bullish vote offset by two bearish ones, the composite (-1/4) sits squarely inside the stand-aside band. Today's FOMC decision (2:00pm ET/18:00 UTC) and tomorrow's PCE print are the dominant catalysts — gold's overnight strength looks like pre-event positioning into a binary macro outcome, not a basis for carrying risk through the announcement.
+XAUUSD's reclaim rally off the Oct 23 cycle low (3,975.61) extended cleanly to a $4,082.76 high on Oct 28, but the move has since round-tripped through three lower H4 lows back down to $4,022.13 — a direct retest of the broken Oct 22 pivot ($4,021.13) — with only a same-bar bounce to $4,033.42 so far, so the structural vote sits at 0 pending confirmation either way. DXY's hawkish 10-2 Fed hold (rates held at 3.75-4.00%, Warsh citing inflation stickiness and no rush to ease) pushed the index to a fresh high (102.32) but it has since stalled inside that range rather than extending, also netting to 0. USOIL (vote 3) could not be read from the live feed — the broker has no tick for `WTI_V6_CFD` — so this call leans on overnight coverage showing oil still elevated after this week's Houthi-strike-driven spike, with Warsh's own remarks flagging Middle-East energy risk as live, keeping the vote bearish for gold at -1. GDX/GDXJ remain the clearest signal, confirming gold's own cycle low in tandem with fresh bounce highs (+1). The net composite (0/4) sits mid-band with no confluence either way, and today's Core PCE print (12:30 UTC) is the catalyst both the Fed and the market are now waiting on — any directional read here is pre-data positioning, not a basis for carrying risk.
 
 ## VISUAL TRADE PLAN - PRICE LADDER (XAUUSD)
 ```
-4125.00   ---  dovish-tilt breakout objective (bull case into FOMC)
-4075.00   ---  overnight pre-FOMC range ceiling / resistance retest
-4037.98  >>>   CURRENT SPOT (web-sourced estimate, 04:57 GMT)
-4021.13   ---  Oct 22 broken D1 low / reclaim pivot, now structural floor
-3975.61   ---  Oct 23 D1 cycle low / key structural invalidation
-3940.00   ---  hawkish-Fed + hot-PCE bear case downside objective
+4082.76   ---  Oct 28 cycle high / overhead resistance
+4068.95   ---  Oct 29 04:00 H4 high, retest of Oct 28 close
+4033.42  >>>   CURRENT SPOT (live MT5 bid)
+4022.13   ---  today's H4 sweep low / Oct 22 broken D1 pivot (4021.13) confluence
+3978.08   ---  Oct 26 D1 higher-low retest, key support
+3975.61   ---  Oct 23 D1 cycle low / structural invalidation
 ```
 
 ## QUARTERLY THEORY SESSION CADENCE
-- Q1 (06:00-07:30 UTC): asian range capture — already underway; overnight range has been $4,000-4,075, with spot easing off the top of that band into London open.
-- Q2 (07:30-09:00 UTC): judas swing — expect a probe toward 4,050-4,075 or a dip toward 4,021 to run stops, but composite at -1 sanctions no directional conviction behind either probe.
-- Q3 (09:00-10:30 UTC): true trend distribution — no trend-aligned edge is authorised; expect the range to compress further as participants de-risk ahead of the 18:00 UTC decision rather than commit to a clean directional expansion.
-- Q4 (10:30-12:00 UTC): terminal distribution — the real catalyst (FOMC statement + Warsh press conference) falls hours after this window closes, so today's Q4 is more likely a flattening/consolidation phase than a genuine reversal signature; the ledger-scoring trigger comes this afternoon, not in London hours.
+- Q1 (06:00-07:30 UTC): asian range capture — already underway at report time; the overnight range is effectively $4,022-4,069, with spot sitting mid-range near $4,033.
+- Q2 (07:30-09:00 UTC): judas swing — expect a probe toward either the $4,021-4,022 pivot or back up toward $4,050-4,069 to run stops; composite at 0 sanctions no conviction behind either probe.
+- Q3 (09:00-10:30 UTC): true trend distribution — no trend-aligned edge is authorised; expect continued two-way chop as participants position ahead of the PCE print rather than commit to a clean directional expansion.
+- Q4 (10:30-12:00 UTC): terminal distribution — likely a flattening/compression phase into the window close, since the real catalyst (Core PCE, 12:30 UTC) lands just minutes after Q4 ends; today's Q4 is a de-risking phase, not the reversal window.
 
 ## EXECUTION PARAMETERS
 - Directional bias: cash
-- Entry trigger: NONE authorised — composite (-1/4) sits inside the -2 to +2 stand-aside band
+- Entry trigger: NONE authorised — composite (0/4) sits inside the -2 to +2 stand-aside band
 - Take profit 1: n/a
 - Take profit 2: n/a
 - Hard invalidation: n/a
-- Re-arm conditions: need the composite to clear ±3. Bullish re-arm requires GDX/GDXJ confirming a cycle low alongside gold (to +1) while DXY rolls over from its current breakout (to 0/+1) and oil's spike fails to extend (to 0/+1). Bearish re-arm requires XAUUSD's reclaim to fail back below 4,021.13 (to 0/-1) while DXY and USOIL hold their current bearish-for-gold readings. Regardless of any ledger shift, flatten or materially reduce size ahead of today's 18:00 UTC FOMC decision and tomorrow's PCE print — this is explicit pre-event positioning, not a green light to hold size through the catalyst.
+- Re-arm conditions: need the composite to clear ±3. Bullish re-arm requires XAUUSD to confirm a higher-low reclaim back through $4,068.95/$4,082.76 (to +1) while DXY rolls over below its $101.87-101.90 higher low (to +1) and USOIL shows a genuine distribution-top/reversal signature (to 0/+1), stacking onto GDX/GDXJ's existing +1. Bearish re-arm requires XAUUSD to lose $4,021-4,022 decisively and then the Oct 26 higher low ($3,978.08) (to -1) while DXY breaks out to fresh highs above $102.32 (to -1) and GDX/GDXJ roll back over (to 0/-1). Regardless of any ledger shift, flatten or materially reduce size into today's 12:30 UTC Core PCE print — this is explicit pre-data positioning, not a green light to hold size through the release.
 
 ## SOURCES
-- `market_levels.json` (repo root) — MetaTrader5 / IC Markets Global, generated_at_utc 2026-10-27T06:55:02Z (STALE, ~24h old; used for structural levels only, not live price)
-- [Gold Price Today $4,038 on Fed Day: Bull $4,125, Bear $3,940](https://financefeeds.com/gold-price-today-4038-wednesday-fed-decision-day-pce-thursday-bull-4125-bear-3940/) — current spot, FOMC/PCE timing, and bull/bear price objectives
-- [Gold reclaims $4,060 as Oil retreats ahead of crucial Fed decision](https://www.fxstreet.com/news/gold-reclaims-4-060-as-oil-retreats-ahead-of-crucial-fed-decision-202610271740) — confirms the overnight reclaim-rally extension and oil's dip-then-spike reversal
-- [Gold rises above $4,050 ahead of Fed rate decision](https://www.fxstreet.com/news/gold-rises-above-4-050-ahead-of-fed-rate-decision-202610272318) — confirms the $4,050+ overnight high and DXY's two-week-high print
+- `market_levels.json` (repo root) — MetaTrader5 / IC Markets Global, generated_at_utc 2026-10-29T06:55:02Z (fresh; XAUUSD/DXY/GDX/GDXJ live, USOIL unavailable — "symbol not found or no tick")
+- [Post Fed Reaction: Warsh Holds Rates, Warns on Inflation Stickiness and Signals No Rush to Ease](https://www.fxstreet.com/analysis/post-fed-reaction-warsh-holds-rates-warns-on-inflation-stickiness-and-signals-no-rush-to-ease-202610282013) — confirms the 10-2 hold at 3.75-4.00%, Warsh's hawkish-cautious tone, and the Middle-East/energy inflation-risk comment
+- [Gold declines to near $4,050 after Fed rate hold, markets await US PCE data](https://www.fxstreet.com/news/gold-declines-to-near-4-050-after-fed-rate-hold-markets-await-us-pce-data-202610282320) — confirms gold's post-decision pullback and the market's focus on today's PCE print
+- [Core PCE release calendar](https://thriveinmarkets.com/calendar/indicator/core-pce/) — confirms today's (Oct 29, 2026) 08:30 ET / 12:30 UTC Core PCE release as the session's dominant catalyst
 
 Price/structure from live MT5 feed (market_levels.json). Not investment advice.
