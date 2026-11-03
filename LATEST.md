@@ -1,58 +1,58 @@
-# XAUUSD DAILY QUANTITATIVE ASSESSMENT - 2026-11-02 (Pre-London, 07:00 UTC)
+# XAUUSD DAILY QUANTITATIVE ASSESSMENT - 2026-11-03 (Pre-London, 07:00 UTC)
 
 ## AT A GLANCE
 | | |
 |---|---|
 | **Stance** | ⚪ STAND ASIDE — no execution authorised |
-| **Composite** | -1 / 4 |
-| **Confidence** | LOW — `market_levels.json` (`generated_at_utc` 2026-10-30T06:55:53Z) is ~72 hours old (the MT5 bridge did not run over the weekend), so there is no live tick for any instrument; current spot and all Monday-session price action below are reconstructed from web sources (Reuters/FXStreet/FX Leaders coverage of the Nov 2 Asian session), and the GDX/GDXJ vote still rests on Thursday's last confirmed MT5 tick (Oct 29 22:54 UTC) with no fresher confirmation — both gaps independently cap this below MODERATE |
-| **Current spot** | ~$3,910 bid (ESTIMATED — web-sourced Asian-session quote, no live MT5 tick; sources cluster $3,900–$3,916) |
-| **Level above** | $3,920 near-term resistance (Monday bounce ceiling) · $3,971–3,982 Friday supply zone · $4,021.19 Oct 29 D1 close / broken Oct 22 pivot (MT5, now distant) |
-| **Level below** | $3,885 key support shelf · $3,870 Friday's one-year-low flush |
-| **Why** | XAUUSD (-1) remains in a confirmed multi-week breakdown that printed a fresh one-year low near $3,870 on Friday before a modest bounce; USOIL (+1) flipped bullish-for-gold as the Houthi-driven spike reversed ~3% on Iran-diplomacy headlines; DXY (0) is rangebound into the midterms; GDX/GDXJ (-1, stale) last confirmed underperforming spot — net -1 stays inside stand-aside |
-| **Watch today** | US midterm elections (Tue Nov 3 — tomorrow, House/Senate control in doubt) and the delayed October NFP (Fri Nov 6); reduce size / avoid fresh exposure into the midterm result given the proximity and the market's already-elevated reactivity to headlines |
-| **Vs yesterday** | Composite **-2 (stand aside) → -1 (stand aside)**: same band, modest improvement. USOIL flipped -1→+1 as the Houthi oil spike reversed on Iran-diplomacy headlines and DXY eased +1→0 into midterm-eve chop, while XAUUSD (-1, breakdown extended to a fresh 1-year low) and GDX/GDXJ (-1, last confirmed tick) held their bearish reads |
+| **Composite** | +1 / 4 |
+| **Confidence** | MODERATE — `market_levels.json` (`generated_at_utc` 2026-11-02T19:37:32Z, ~11.5h old) is fresh and its XAUUSD tick/H4 bars line up cleanly, but the MT5 feed returned "symbol not found or no tick" for USOIL (Vote 3 price sourced from web news instead of the broker feed) and the DXY/GDX/GDXJ H4/D1 bar histories lag 3-5 days behind their live ticks (known provider gap) — the gold vote itself is HIGH confidence, the other three cap it at MODERATE |
+| **Current spot** | $3,945.16 bid (live MT5 tick, 2026-11-02T21:37:31Z) |
+| **Level above** | $3,970.37 Nov 2 H4 cycle high (immediate resistance) · $4,021.19 Oct 29 D1 close / broken pivot (next target if DCL extends) |
+| **Level below** | $3,884.19 Nov 2 H4 session low (DCL confirmation shelf) · $3,870.21 Oct 30 D1 low (one-year-low flush, hard invalidation) |
+| **Why** | XAUUSD (+1) confirmed a DCL reversal off Friday's one-year low; USOIL (+1) is in a deepening >7% rout as Iran-diplomacy hopes build; DXY (0) is pinned flat into midterm-eve chop; GDX/GDXJ (-1) pushed to fresh lows even as spot rallied — net +1 stays inside stand-aside |
+| **Watch today** | US midterm elections — today, Tue Nov 3, results rolling in through the US evening (House/Senate/39 governorships) — plus the delayed October NFP print Fri Nov 6; flatten/reduce size through tonight's vote count regardless of the intraday ledger |
+| **Vs yesterday** | Composite **-1 (stand aside) → +1 (stand aside)**: same band, three-vote swing. XAUUSD flipped -1→+1 as the breakdown reversed off a confirmed one-year-low sweep with a higher-low surge to $3,970; USOIL held +1 as the Houthi/Iran spike-reversal intensified from a ~3% pullback to a >7% rout; DXY held 0 (rangebound into event risk); GDX/GDXJ held -1, now confirmed live rather than stale |
 
 ## DAILY 4-VOTE LEDGER
-- 🔴 XAUUSD: confirmed breakdown extended to a fresh cycle low, bounce unconfirmed | Price broke the broken Oct 22 pivot (4,021.13) days ago, kept falling through the Oct 23 cycle low (3,975.61), and printed a fresh one-year low near $3,870–3,900 in Friday's liquidation before a modest ~0.3–0.5% Monday bounce to ~$3,900–3,916 — a sustained multi-session decline with no reclaim of any broken level, and the bounce is not yet a confirmed higher-low reversal | vote: **-1**
-- ⚪ DXY: rangebound into event risk | Last MT5 tick 101.703 (Oct 30 09:55 UTC H4 close) after rolling off its 102.32 Oct 28 cycle high; Reuters/Investing.com describe the dollar as "rangebound" near 101.9 on Monday with traders sidelined ahead of the midterms — textbook macro-event chop, not a resumed rollover or a breakout | vote: **0**
-- 🟢 USOIL: Houthi-driven spike reversing on diplomacy headlines | WTI had expanded impulsively to ~$102–104 (Brent $116–118) through Friday on Houthi strikes on Saudi/Gulf energy infrastructure, but Monday's reporting shows WTI down ~3% to ~$100.8 and Brent down ~3% to ~$109.9 as the US administration signals a preference for Iran diplomacy over military escalation — a clear corrective pullback off the spike, which gives gold room even though the prior move was geopolitical | vote: **+1**
-- 🔴 GDX/GDXJ: last confirmed tick still shows miners distributing, underperforming spot (STALE) | Last live MT5 data (Oct 29 22:54 UTC) has GDX closing 81.24 (-2.7% that session) and GDXJ 100.67 (-3.0%), both on lower-high/lower-low sequences that outpaced gold's own -1.1% decline that day; no reliable fresher data confirms either a stabilization or a tandem low with gold's Monday bounce, so the bearish divergence is carried forward with a staleness caveat | vote: **-1**
+- 🟢 XAUUSD: confirmed DCL — sweep of prior lows then H4 higher-low reversal | Friday's (Oct 30) plunge swept every recent swing low into a fresh one-year low at $3,870.21; price then based in the $3,884.19-3,893 zone through Monday's early H4 bars before expanding impulsively to a $3,970.37 high on a clean sequence of rising H4 lows (3,884.19 → 3,892.87 → 3,893.94 → 3,934.89 → 3,944.40), the exact sweep-then-higher-low DCL signature | vote: **+1**
+- ⚪ DXY: flat/rangebound into event risk | Live bid 101.568 sits barely below the stale Oct 30 H4 close of 101.613, itself already rolled over from the Oct 27 cycle high of 102.225 — genuine tight-range chop with traders sidelined into today's midterm vote, not a resumed breakout or rollover | vote: **0**
+- 🟢 USOIL: Iran-diplomacy reversal deepened into a >7% rout | WTI, which had spiked on Houthi strikes and Iran-war escalation fears through late October, sold off more than 7% Monday to settle near $96.46 and broke below $100 for the first time since the spike began, as Secretary of State Rubio signaled a US preference for ending the Iran conflict diplomatically — a clean, intensifying corrective reversal off the cycle high that removes a risk-off/inflation tailwind and gives gold room (no live MT5 quote; priced from CNBC/Investing.com reporting) | vote: **+1**
+- 🔴 GDX/GDXJ: miners pushed to fresh lows while spot rallied hardest in weeks | Live bids GDX $78.97 and GDXJ $96.90 are both below their last confirmed Oct 29 session lows ($80.69 / $100.07), even as XAUUSD staged its sharpest one-day rally since the breakdown began — a textbook lagging divergence, not a tandem cycle-low confirmation | vote: **-1**
 
-**COMPOSITE SCORE: -1 / 4**
+**COMPOSITE SCORE: +1 / 4**
 **STANCE: STAND ASIDE**
 
 ## RATIONALE
-XAUUSD's breakdown that began with the failed reclaim of the broken Oct 22 pivot (4,021.13) has now run to a fresh one-year low near $3,870–3,900 in Friday's liquidation-driven plunge, and Monday's bounce to roughly $3,900–3,916 is too shallow and too fresh to call a confirmed cycle-low reversal (Vote 1: -1). The dollar, which rolled off its own 102.32 cycle high on Oct 28, is now simply rangebound near 101.9 as traders sit on their hands into Tuesday's midterm elections — a wash rather than a tailwind for gold (Vote 2: 0). The one genuine improvement in the ledger is oil: the Houthi-driven spike that had WTI above $100 and Brent near $116–118 through Friday is reversing hard (WTI -3% to ~$100.8, Brent -3% to ~$109.9) on reports the administration is favoring Iran diplomacy over strikes, which removes a source of inflation-fear pressure on gold even though the supply scare that caused it was never resolved on fundamentals (Vote 3: +1). Gold miners remain the weak link in the picture by default rather than conviction — the last live MT5 tick (Thursday) showed GDX/GDXJ underperforming spot's decline, and no fresher confirmation exists to say whether that divergence has healed over the weekend (Vote 4: -1, stale). Net composite of -1/4 sits well inside the stand-aside band, and with the midterm elections landing tomorrow and the delayed October NFP print Friday, this is not a setup to lean on size into either event.
+XAUUSD swept decisively below every recent swing low into a fresh one-year low at $3,870.21 on Friday, then based in the $3,884-3,893 zone through Monday's early session before expanding impulsively to a $3,970.37 high on a clean rising-H4-low sequence — a textbook sweep-then-reclaim DCL confirmation (Vote 1: +1). The dollar, already rolled over from its Oct 27 cycle high of 102.225, is sitting essentially flat near 101.57-101.61 as traders stay sidelined into today's vote — genuine macro-event chop rather than a resumed trend (Vote 2: 0). Crude's Houthi/Iran-war spike reversed even harder Monday, down more than 7% to a ~$96.46 settlement and through the $100 level, as the US and Iran signaled room for diplomacy — removing a risk-off tailwind and confirming the corrective-pullback pattern that gives gold room to run (Vote 3: +1). Miners remain the clean dissenting vote: GDX/GDXJ both pushed to fresh lows below their last confirmed session lows even as spot staged its sharpest rally in weeks, a lagging divergence that keeps the composite capped (Vote 4: -1). Net composite of +1/4 is a real three-vote swing from yesterday's -1 but still sits inside the -2/+2 stand-aside band, and with the US midterm election results landing through tonight and the delayed October NFP print following Friday, this is not a session to lean on size regardless of how the intraday tape behaves.
 
 ## VISUAL TRADE PLAN - PRICE LADDER (XAUUSD)
 ```
-4021.19   ---  Oct 29 D1 close / broken Oct 22 pivot (MT5) — distant overhead resistance
-3982      ---  Friday's post-plunge supply zone top — immediate resistance retest
-3920      ---  Monday bounce ceiling cited across live coverage
-3910     >>>   CURRENT SPOT (estimated, web-sourced, no live MT5 tick)
-3885      ---  key support shelf (post-plunge consolidation floor)
-3870      ---  Friday's one-year-low flush — structural invalidation
+4021.19   ---  Oct 29 D1 close / broken pivot — upside target if DCL extends
+3970.37   ---  Nov 2 H4 cycle high — immediate resistance retest
+3945.16  >>>   CURRENT SPOT (live MT5 bid)
+3934.89   ---  Nov 2 16:00 H4 low — nearest higher-low support
+3884.19   ---  Nov 2 H4 session low — DCL confirmation shelf
+3870.21   ---  Oct 30 D1 low — one-year-low flush, hard structural invalidation
 ```
 
 ## QUARTERLY THEORY SESSION CADENCE
-- Q1 (06:00-07:30 UTC): asian range capture — already underway; Monday's bounce off the Friday flush has established an early range roughly $3,885-3,920, thin and headline-sensitive with no live MT5 confirmation.
-- Q2 (07:30-09:00 UTC): judas swing — watch for a probe toward 3,920-3,982 to run shorts, or a flush back toward 3,885-3,870 to sweep fresh longs; composite at -1 sanctions no conviction behind either probe.
-- Q3 (09:00-10:30 UTC): true trend distribution — no trend-aligned edge is authorised; with DXY rangebound and oil reversing but gold still technically broken, expect continued two-way chop rather than clean directional expansion.
-- Q4 (10:30-12:00 UTC): terminal distribution — likely a tightening, lower-volatility consolidation into tomorrow's midterm elections, with position-squaring more likely than a fresh directional push.
+- Q1 (06:00-07:30 UTC): asian range capture — the pre-London session has built a tight base around $3,940-3,955, directly beneath the $3,970 cycle high, setting the baseline liquidity pool.
+- Q2 (07:30-09:00 UTC): judas swing — composite at +1 sanctions no conviction; watch for a probe above $3,970 to run breakout longs or a quick flush toward $3,920-3,934 to sweep fresh shorts before any real move resolves.
+- Q3 (09:00-10:30 UTC): true trend distribution — no trend-aligned edge is authorised; expect two-way chop rather than a clean push toward either the $4,021 target or the $3,884 shelf, with positioning thinning ahead of tonight's vote.
+- Q4 (10:30-12:00 UTC): terminal distribution — likely consolidation and position-squaring into the US midterm count rather than a fresh directional resolution; the real volatility risk sits in the US afternoon/evening, not the London morning.
 
 ## EXECUTION PARAMETERS
 - Directional bias: cash
-- Entry trigger: NONE authorised — composite (-1/4) sits inside the -2 to +2 stand-aside band
+- Entry trigger: NONE authorised — composite (+1/4) sits inside the -2 to +2 stand-aside band
 - Take profit 1: n/a
 - Take profit 2: n/a
 - Hard invalidation: n/a
-- Re-arm conditions: Bearish re-arm to -3/-4 needs DXY to resume its uptrend (0→-1) or USOIL's oil-diplomacy reversal to fail and resume impulsive upside (+1→-1), while XAUUSD holds its breakdown and GDX/GDXJ keeps distributing. Bullish re-arm to +3/+4 needs XAUUSD to confirm a higher-low reversal off the $3,870-3,900 low with a reclaim of 3,920/3,982 (Vote 1 to 0/+1), DXY to roll over further (0→+1), and GDX/GDXJ to confirm a tandem cycle low with spot (Vote 4 to 0/+1), stacking onto USOIL's existing +1. Given the midterm elections land tomorrow and NFP follows Friday, reduce size / avoid fresh exposure into either event regardless of how the ledger shifts intraday.
+- Re-arm conditions: Bullish re-arm to +3/+4 needs DXY to confirm a resumed rollover/lower structural high (0→+1) or GDX/GDXJ to stabilize and confirm a tandem low with spot (-1→0/+1), while XAUUSD holds its DCL reversal and USOIL's rout continues (both holding +1). Bearish re-arm to -3/-4 needs XAUUSD to fail the $3,884 shelf and resume the breakdown (+1→-1) alongside DXY breaking higher and/or USOIL snapping back into impulsive upside. Regardless of ledger shifts, reduce size/flatten through tonight's US midterm results and into Friday's delayed NFP print — a +1 read taken this morning is not a green light to hold size through either event.
 
 ## SOURCES
-- `market_levels.json` (repo root) — MetaTrader5 / IC Markets Global, generated_at_utc 2026-10-30T06:55:53Z (STALE — bridge did not run over the weekend, ~72h old; no live tick for any instrument)
-- [Gold Price Forecast: XAU/USD Faces $3,920 Test Ahead of Midterms and NFP](https://fxleaders.com/news/2026/11/02/gold-price-forecast-xau-usd-faces-3920-test-ahead-of-midterms-and-nfp) — drove the current-spot estimate, near-term resistance/support levels, and the midterm/NFP event-risk call
-- [Dollar rangebound ahead of US midterms; bitcoin reels from crypto heist (Reuters via Investing.com)](https://www.investing.com/news/forex-news/dollar-rangebound-ahead-of-us-midterms-bitcoin-reels-from-crypto-heist-4989794) — drove the DXY vote (rangebound/event chop)
-- [Oil falls as Trump favours Iran diplomacy before midterm elections (Investing.com)](https://ca.investing.com/news/commodities-news/oil-falls-as-trump-favours-iran-diplomacy-before-midterm-elections-4920388) — drove the USOIL vote (Houthi-spike reversal)
+- `market_levels.json` (repo root) — MetaTrader5 / IC Markets Global, generated_at_utc 2026-11-02T19:37:32Z (fresh for XAUUSD/DXY/GDX/GDXJ ticks; USOIL symbol returned no tick; DXY/GDX/GDXJ bar histories lag to Oct 29-30)
+- [Oil prices fall as Iran, US pursue diplomacy (CNBC)](https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html) — drove the USOIL vote and price (>7% rout, ~$96.46 settle, broke below $100)
+- [US midterm elections 2026: All you need to know ahead of November 3 (Khaleej Times)](https://www.khaleejtimes.com/world/americas/us-midterm-elections-2026-voting-explainer) — confirmed election day is today (Nov 3) and drove the Watch Today / event-risk caution
+- [Gold's Faded Haven Allure Hinges on Deficit, Inflation Fears (Bloomberg)](https://www.bloomberg.com/news/articles/2026-11-02/gold-investors-rocked-by-wipeout-seek-firmer-footing-after-vote) — macro backdrop for gold's 2026 drawdown and the bounce attempt
 
 Price/structure from live MT5 feed (market_levels.json). Not investment advice.
