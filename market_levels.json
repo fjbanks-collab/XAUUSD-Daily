@@ -1,35 +1,14 @@
 {
-  "generated_at_utc": "2026-11-06T06:55:04Z",
+  "generated_at_utc": "2026-11-07T16:24:30Z",
   "source": "MetaTrader5 (IC Markets Global, local terminal)",
   "instruments": {
     "XAUUSD": {
       "mt5_symbol": "XAUUSD",
       "description": "Gold vs US Dollar",
-      "bid": 4049.06,
-      "ask": 4049.18,
-      "tick_time_utc": "2026-11-06T08:55:04Z",
+      "bid": 4071.41,
+      "ask": 4071.81,
+      "tick_time_utc": "2026-11-06T23:56:59Z",
       "h4": [
-        {
-          "time": "2026-11-04T12:00Z",
-          "open": 4041.48,
-          "high": 4051.54,
-          "low": 4030.26,
-          "close": 4046.58
-        },
-        {
-          "time": "2026-11-04T16:00Z",
-          "open": 4046.58,
-          "high": 4070.41,
-          "low": 4029.1,
-          "close": 4066.14
-        },
-        {
-          "time": "2026-11-04T20:00Z",
-          "open": 4066.11,
-          "high": 4070.5,
-          "low": 4055.41,
-          "close": 4059.97
-        },
         {
           "time": "2026-11-05T00:00Z",
           "open": 4063.25,
@@ -89,9 +68,30 @@
         {
           "time": "2026-11-06T08:00Z",
           "open": 4041.8,
-          "high": 4052.2,
+          "high": 4081.18,
           "low": 4038.86,
-          "close": 4049.06
+          "close": 4072.67
+        },
+        {
+          "time": "2026-11-06T12:00Z",
+          "open": 4072.66,
+          "high": 4073.34,
+          "low": 4030.71,
+          "close": 4044.58
+        },
+        {
+          "time": "2026-11-06T16:00Z",
+          "open": 4044.64,
+          "high": 4068.41,
+          "low": 4029.81,
+          "close": 4060.18
+        },
+        {
+          "time": "2026-11-06T20:00Z",
+          "open": 4060.19,
+          "high": 4078.57,
+          "low": 4058.46,
+          "close": 4071.41
         }
       ],
       "d1": [
@@ -148,8 +148,8 @@
           "time": "2026-11-06T00:00Z",
           "open": 4087.46,
           "high": 4107.07,
-          "low": 4035.77,
-          "close": 4049.06
+          "low": 4029.81,
+          "close": 4071.41
         }
       ]
     },
@@ -160,9 +160,9 @@
     "DXY": {
       "mt5_symbol": "DXY_Z6",
       "description": "US Dollar Index -December 26 CFD",
-      "bid": 101.735,
-      "ask": 101.765,
-      "tick_time_utc": "2026-11-06T08:55:02Z",
+      "bid": 102.103,
+      "ask": 102.133,
+      "tick_time_utc": "2026-11-06T23:59:59Z",
       "h4": [
         {
           "time": "2026-11-04T12:00Z",
@@ -244,9 +244,9 @@
         {
           "time": "2026-11-06T08:00Z",
           "open": 101.633,
-          "high": 101.755,
+          "high": 101.798,
           "low": 101.615,
-          "close": 101.735
+          "close": 101.745
         }
       ],
       "d1": [
@@ -302,18 +302,18 @@
         {
           "time": "2026-11-06T00:00Z",
           "open": 101.468,
-          "high": 101.755,
+          "high": 101.798,
           "low": 101.428,
-          "close": 101.735
+          "close": 101.745
         }
       ]
     },
     "GDX": {
       "mt5_symbol": "GDX.NYSE",
       "description": "VanEck Gold Miners ETF/USA CFD",
-      "bid": 86.2,
-      "ask": 86.23,
-      "tick_time_utc": "2026-11-05T22:54:59Z",
+      "bid": 87.2,
+      "ask": 87.21,
+      "tick_time_utc": "2026-11-06T22:54:56Z",
       "h4": [
         {
           "time": "2026-10-29T16:00Z",
@@ -462,17 +462,10 @@
     "GDXJ": {
       "mt5_symbol": "GDXJ.NYSE",
       "description": "VanEck Junior Gold Miners ETF CFD",
-      "bid": 105.42,
-      "ask": 105.44,
-      "tick_time_utc": "2026-11-05T22:54:59Z",
+      "bid": 107.2,
+      "ask": 107.22,
+      "tick_time_utc": "2026-11-06T22:54:58Z",
       "h4": [
-        {
-          "time": "2026-10-28T20:00Z",
-          "open": 102.68,
-          "high": 103.83,
-          "low": 101.71,
-          "close": 103.82
-        },
         {
           "time": "2026-10-29T16:00Z",
           "open": 100.82,
@@ -548,7 +541,14 @@
           "open": 107.62,
           "high": 107.85,
           "low": 100.74,
-          "close": 103.88
+          "close": 103.94
+        },
+        {
+          "time": "2026-11-05T20:00Z",
+          "open": 103.92,
+          "high": 105.62,
+          "low": 103.28,
+          "close": 105.42
         }
       ],
       "d1": [
