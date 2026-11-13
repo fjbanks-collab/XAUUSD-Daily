@@ -1,58 +1,57 @@
-# XAUUSD DAILY QUANTITATIVE ASSESSMENT - 2026-11-12 (Pre-London, 07:00 UTC)
+# XAUUSD DAILY QUANTITATIVE ASSESSMENT - 2026-11-13 (Pre-London, 07:00 UTC)
 
 ## AT A GLANCE
 | | |
 |---|---|
-| **Stance** | 🔴 BEARISH CONFLUENCE — prioritize shorts / fade cycle highs |
-| **Composite** | -3 / 4 |
-| **Confidence** | MODERATE — `market_levels.json` (`generated_at_utc` 2026-11-11T23:15:50Z) is fresh (~8h old) and XAUUSD/GDXJ H4+D1 bars run current through today; but DXY's and GDX's H4 histories lag their live ticks by 1-3 days (known provider gap — the live ticks themselves are current and are what drove those votes) and USOIL (`WTI_V6_CFD`) is a full MT5 blackout with no confirmable dated web price either, so one of four votes is unscored rather than genuinely read. |
-| **Current spot** | $3,983.60 (live MT5 bid, tick 2026-11-12T01:15:50Z) |
-| **Level above** | $4,066.04 (Nov 11 04:00 H4 high — hard invalidation) · $3,994.22 (Nov 12 00:00 H4 high — immediate retest) |
-| **Level below** | $3,982.58 (Nov 12 00:00 H4 low — immediate support, at risk) · $3,919.86 (Nov 4 D1 low — next target) |
-| **Why** | Composite -3: XAUUSD's sustained breakdown with no reclaim of any broken swing low since the Nov 9 cycle high, DXY's impulsive breakout above its Nov 6 range high, and GDX/GDXJ miner distribution with lower highs all align bearish; USOIL is an unscored MT5/web data blackout, not a genuine neutral read |
-| **Watch today** | None scheduled in the next 1-2 sessions — next FOMC is Dec 9, next CPI (Nov-data) print is Dec 10; today's price action is still working off the hawkish repricing from the Nov 10 CPI print already embedded in this DXY breakout |
-| **Vs yesterday** | Composite **-2 (stand aside) → -3 (bearish confluence)**: XAUUSD's rejection deepened into a confirmed breakdown, DXY completed its breakout above the Nov 6 high, and GDX/GDXJ flipped from unscored to confirmed miner distribution; USOIL remains an unscored data blackout for a second straight day |
+| **Stance** | ⚪ STAND ASIDE — no execution authorized, gold's bounce unconfirmed by dollar/miners |
+| **Composite** | -1 / 4 |
+| **Confidence** | MODERATE — `market_levels.json` (`generated_at_utc` 2026-11-13T06:55:01Z) is only ~13 minutes old, and XAUUSD's live tick/H4/D1 bars and DXY's live tick/D1 bars are current through this morning; but USOIL (`WTI_V6_CFD`) is a full MT5 blackout for a second straight session with no confirmable dated web substitute, and DXY's H4 array is still empty (D1+tick substitute for that vote). GDX/GDXJ ticks are from yesterday's NY close (22:54 UTC Nov 12), which is normal since the US cash market hasn't opened yet at this hour, not a freshness problem. |
+| **Current spot** | $3,895.97 (live MT5 bid) |
+| **Level above** | $3,923.09 (today's H4 swing high — immediate resistance) · $3,919.86 (swept Nov 4 D1 low — key reclaim pivot) |
+| **Level below** | $3,872.12 (Nov 12 20:00 H4 low — immediate support) · $3,852.47 (Nov 12 16:00 H4 low — cycle-low hard invalidation) |
+| **Why** | Composite -1: XAUUSD's emerging sweep-and-higher-low basing attempt (+1) is offset by DXY's intact breakout to fresh highs (-1) and GDX/GDXJ's confirmed distribution lagging the spot bounce (-1); USOIL stays an unscored data blackout (0) — net result falls inside the stand-aside band |
+| **Watch today** | None scheduled in the next 1-2 sessions — next FOMC is Dec 9, 2026; today's price action is still digesting the Nov 10 hot CPI print that triggered the hawkish repricing and the subsequent Nov 11-12 breakdown |
+| **Vs yesterday** | Composite **-3 (bearish confluence) → -1 (stand aside)**: XAUUSD flipped from confirmed breakdown to a tentative sweep-and-reclaim basing signature off the $3,852.47 cycle low, while DXY and GDX/GDXJ both held their bearish reads — the shift is gold's own tape turning, not a change in the dollar or miner picture |
 
 ## DAILY 4-VOTE LEDGER
-- 🔴 XAUUSD: confirmed DCH breakdown, sustained multi-session decline | Price has printed lower highs/lower lows every session since the Nov 9 D1 cycle high of $4,148.64 — Nov 10 D1 low $4,013.58 (close $4,032.72), Nov 11 D1 low $3,982.64 (close $3,987.55), through the Nov 12 00:00 H4 bar closing $3,983.60 — with zero reclaim of any broken swing low | vote: **-1**
-- 🔴 DXY: impulsive breakout above range high | The Nov 11 D1 bar (open 102.128, high 102.868, low 102.098, close 102.825) decisively cleared the Nov 6 D1 high of 102.228, and the live bid of 102.825 confirms the breakout is holding even though DXY's own H4 array lags at a Nov 10 08:00 close of 101.445 | vote: **-1**
-- ⚪ USOIL: data blackout persists, no confirmable cycle-phase read | `WTI_V6_CFD` still returns "symbol not found or no tick" in the MT5 feed, and web search turned up only undated or stale WTI price reports plus an OPEC+ global-surplus narrative with no dateable Nov 11-12 reversal signature either way, so this cannot be scored as a genuine vote | vote: **0**
-- 🔴 GDX/GDXJ: miners distributing, confirmed lower highs | GDXJ's fresh Nov 11 H4/D1 data shows an intraday top at 106.60 fading to a 104.59 close, well below its Nov 9 high of 113.66; GDX's live bid of 85.31 sits far below its last confirmed Nov 9 close of 91.32, confirming the same distribution even though GDX's own H4/D1 bars lag ~3 days | vote: **-1**
+- 🟢 XAUUSD: emerging DCL, sweep-and-reclaim basing attempt | H4 swept the Nov 4 D1 low of $3,919.86 (and the deeper Nov 12 16:00 waterfall low of $3,852.47) then built four straight higher lows ($3,852.47→$3,872.12→$3,874.90→$3,892.44) and poked back above $3,919.86 to a $3,923.09 high before pulling back to the $3,895.97 live bid — a genuine sweep-and-higher-low signature, though not yet a closing-confirmed reclaim | vote: **+1**
+- 🔴 DXY: sustained higher highs, impulsive breakout intact | D1 closes have climbed every session since the Nov 6 high of 102.228 — Nov 11 close 102.825, Nov 12 close 103.07, today's high 103.133 — with the live bid holding at 103.048 near the top of the range and no rejection signature | vote: **-1**
+- ⚪ USOIL: data blackout persists, no confirmable cycle-phase read | `WTI_V6_CFD` still returns "symbol not found or no tick" for a second consecutive session, and web search found no dateable Nov 12-13 WTI reversal/continuation signature to substitute, so this stays unscored rather than forced | vote: **0**
+- 🔴 GDX/GDXJ: confirmed distribution, now lagging spot's bounce | GDX has printed lower closes every session since its Nov 9 cycle high of 91.32 (86.87→85.31→81.91) and GDXJ the same since its Nov 9 close of 112.84 (106.88→104.59→99.61), both still sitting at yesterday's NY close with zero sign of stabilizing even as XAUUSD attempts to bounce off its own cycle low | vote: **-1**
 
-**COMPOSITE SCORE: -3 / 4**
-**STANCE: BEARISH CONFLUENCE**
+**COMPOSITE SCORE: -1 / 4**
+**STANCE: STAND ASIDE**
 
 ## RATIONALE
-XAUUSD's own structure has moved from rejection to confirmed breakdown: every session since the Nov 9 cycle high of $4,148.64 has printed a lower high and lower low, with the Nov 12 00:00 H4 bar closing at $3,983.60 and no reclaim of any broken swing low along the way (Vote 1: -1). That decline is mechanically reinforced by the dollar: DXY's Nov 11 daily bar broke decisively above its Nov 6 range high of 102.228 to close at 102.825, and the live tick confirms that breakout is holding into today's session, even though DXY's H4 bar history itself lags the tick by roughly 36 hours (Vote 2: -1). Gold miners are confirming rather than diverging — GDXJ's own fresh intraday data shows a failed push to 106.60 fading into a 104.59 close, well off its Nov 9 high of 113.66, while GDX's live bid near $85.31 sits far below its last confirmed close of $91.32 (Vote 4: -1). USOIL remains a full MT5 blackout (`WTI_V6_CFD` unresolved) with no reliable dated web price to substitute, so it stays unscored rather than forced into a false read (Vote 3: 0). Net composite of -3/4 clears the bearish-confluence threshold on three confirmed, mutually reinforcing votes; there is no FOMC, CPI, or other high-impact catalyst inside the next 1-2 sessions (next FOMC Dec 9, next CPI Dec 10), so today's setup is a continuation read on the lingering Nov 10 CPI repricing rather than pre-event positioning.
+XAUUSD's own structure has shifted from confirmed breakdown to a tentative basing attempt: after sweeping both the Nov 11 D1 low ($3,982.64) and the deeper Nov 4 D1 low ($3,919.86) down to a waterfall low of $3,852.47 on Nov 12, H4 built four consecutive higher lows and briefly reclaimed above $3,919.86 (high $3,923.09) before easing back to the $3,895.97 live bid — a real sweep-and-higher-low signature, though not yet a closing-confirmed reclaim (Vote 1: +1). That tentative stabilization is not being mechanically supported by the dollar: DXY has closed higher every session since the Nov 6 high of 102.228, trading at 103.048 live with no rejection signature, which keeps structural pressure on gold (Vote 2: -1). Gold miners have not confirmed the bounce either — GDX and GDXJ are both still printing lower closes from their Nov 9 cycle highs (91.32 and 112.84 respectively) through yesterday's NY close, lagging severely behind spot's attempt to rally off its low, exactly the pattern the ledger treats as bearish divergence (Vote 4: -1). USOIL remains a full MT5 blackout for a second straight session with no reliable dated web substitute, so it stays unscored (Vote 3: 0). The net composite of -1/4 falls inside the -2/+2 stand-aside band — gold's own tape is trying to turn, but the dollar and the miners haven't confirmed it, so no directional edge is sanctioned; there is no FOMC, CPI, or other high-impact catalyst inside the next 1-2 sessions (next FOMC Dec 9), so today's indecision reflects a genuine lack of confluence rather than pre-event caution.
 
 ## VISUAL TRADE PLAN - PRICE LADDER (XAUUSD)
 ```
-4066.04   ---  Nov 11 04:00 H4 high — hard invalidation for short bias (reclaim negates breakdown)
-3994.22   ---  Nov 12 00:00 H4 high — immediate retest/resistance just above spot
-3983.60  >>>  CURRENT SPOT — live MT5 bid, tick 2026-11-12T01:15:50Z
-3982.58   ---  Nov 12 00:00 H4 low — immediate support/sweep level, at risk
-3919.86   ---  Nov 4 D1 low — next structural support / TP1
-3895.46   ---  Nov 3 D1 low — deeper structural support / TP2
+3982.64   ---  Nov 11 D1 low (swept) — upside confirmation level, reclaim+hold needed to validate reversal
+3923.09   ---  Nov 13 H4 swing high — immediate resistance, today's failed retest high
+3919.86   ---  Nov 4 D1 low (swept) — key pivot, reclaimed intrabar but not held on a close
+3895.97  >>>  CURRENT SPOT — live MT5 bid
+3872.12   ---  Nov 12 20:00 H4 low — immediate support, higher-low in the basing sequence
+3852.47   ---  Nov 12 16:00 H4 low — cycle low / hard invalidation, break resumes the breakdown
 ```
 
 ## QUARTERLY THEORY SESSION CADENCE
-- Q1 (06:00-07:30 UTC): asian range capture — range is forming just under the Nov 12 00:00 H4 low pocket ($3,982.58-$3,994.22) ahead of London; treat as baseline liquidity, not a signal.
-- Q2 (07:30-09:00 UTC): judas swing — watch for a probe up into the $3,994.22-$4,066.04 broken-support-now-resistance zone that fails; a reclaim and hold above $4,066.04 would challenge today's bearish read.
-- Q3 (09:00-10:30 UTC): true trend distribution — with composite -3 bearish and no event risk to disrupt it, expect continuation lower toward $3,919.86/$3,895.46 if the Judas swing fails as expected.
-- Q4 (10:30-12:00 UTC): terminal distribution — watch for exhaustion into the $3,895.46-$3,919.86 support cluster; a failure to break it cleanly on the first test could set up a reversal or rebalance into Friday.
+- Q1 (06:00-07:30 UTC): asian range capture — overnight range has been forming inside the $3,888-$3,923 pocket; baseline liquidity only, not a signal.
+- Q2 (07:30-09:00 UTC): judas swing — watch for a probe into the $3,919.86-$3,923.09 resistance pocket that fails back below (favors bearish continuation toward $3,852.47); a clean close-and-hold above $3,923.09 would instead start validating the basing thesis.
+- Q3 (09:00-10:30 UTC): true trend distribution — with composite at -1 (stand aside) there is no sanctioned directional lean; this quarter should clarify whether the Judas swing failed or held rather than confirm a pre-set bias.
+- Q4 (10:30-12:00 UTC): terminal distribution — watch whether $3,852.47 holds as the cycle low into the session close; a clean break resumes the breakdown, while a defended base keeps the reversal thesis alive for tomorrow.
 
 ## EXECUTION PARAMETERS
-- Directional bias: short
-- Entry trigger: short on a retest/rejection within the $3,994.22-$4,066.04 broken-support-now-resistance zone, or on a confirmed H4 close below $3,982.58 extending the breakdown
-- Take profit 1: $3,919.86
-- Take profit 2: $3,895.46
-- Hard invalidation: $4,066.04
-- Re-arm conditions: the USOIL data blackout must resolve (live MT5 tick or a confirmed dated web price) before the ledger can carry a genuine 4-vote read. Bullish re-arm requires XAUUSD reclaiming and holding above $4,066.04 while DXY fails to hold its breakout above 102.228. No FOMC/CPI falls inside the next 1-2 sessions, so no pre-event size reduction is mandated today — reassess if that calendar changes.
+- Directional bias: cash
+- Entry trigger: NONE authorised — composite sits at -1/4, inside the -2 to +2 stand-aside band
+- Take profit 1: n/a
+- Take profit 2: n/a
+- Hard invalidation: n/a (no position)
+- Re-arm conditions: bullish re-arm requires a closing H4 reclaim and hold above $3,923.09 together with GDX/GDXJ stabilizing or printing their own higher low in tandem with gold; bearish re-arm requires a confirmed break and close below the $3,852.47 cycle low while DXY's breakout and miner distribution stay intact (2 of 3 already in place). USOIL's data blackout should also resolve before the ledger can carry a genuine 4-vote read. No FOMC/CPI event falls inside the next 1-2 sessions, so no pre-event size reduction is mandated today.
 
 ## SOURCES
-- `market_levels.json` (repo root) — MetaTrader5 / IC Markets Global, `generated_at_utc` 2026-11-11T23:15:50Z (XAUUSD and GDXJ bars current through today; DXY/GDX H4 bars lag their live ticks by 1-3 days; USOIL unresolved)
+- `market_levels.json` (repo root) — MetaTrader5 / IC Markets Global, `generated_at_utc` 2026-11-13T06:55:01Z (XAUUSD and DXY ticks/D1 current through today; GDX/GDXJ reflect yesterday's NY close since the US cash market hasn't opened; USOIL unresolved for a second session)
+- [Sharp retreat from gold, higher US CPI opens the door to a 50 bps rate hike in the US](https://www.xtb.com/int/market-analysis/news-and-research/sharp-retreat-from-gold-higher-us-cpi-opens-the-door-to-a-50-bps-rate-hike-in-the-us) — confirms the Nov 10 hot CPI print as the origin of the hawkish repricing driving the Nov 11-12 breakdown
 - [FOMC Meeting Schedule — December 2026](https://fedratecalc.com/fomc-meeting-schedule/december-2026/) — confirms the next FOMC decision is Dec 9, outside the next 1-2 sessions
-- [U.S. CPI Release Dates 2026](https://www.bls.gov/schedule/news_release/cpi.htm) — confirms the next CPI print (November data) is Dec 10
-- [Crude Prices Tumble as OPEC Projects a Global Crude Surplus](https://www.barchart.com/story/news/36076304/crude-prices-tumble-as-opec-projects-a-global-crude-surplus) — context for the unscored USOIL vote; no dateable Nov 11-12 reversal signature found
 
 Price/structure from live MT5 feed (market_levels.json). Not investment advice.
